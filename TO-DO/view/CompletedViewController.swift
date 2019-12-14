@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CompletedViewController.swift
 //  TO-DO
 //
 //  Created by 황다현 on 2019/12/14.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CompletedViewController: CompletedView {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
 }
-
