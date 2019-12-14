@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class NextUpView  : BaseViewController {
+class NextUpView  : BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

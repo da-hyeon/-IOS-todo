@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CompletedView : BaseViewController {
+class CompletedView : BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
