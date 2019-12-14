@@ -79,7 +79,7 @@
 			children = (
 				3BC7A94B23A51EF40089A543 /* scene */,
 				3BC7A94823A514FA0089A543 /* ui */,
-				3BC7A94723A514E10089A543 /* view */,
+				3BC7A94723A514E10089A543 /* controller */,
 				3BC7A93323A4F9540089A543 /* AppDelegate.swift */,
 				3BC7A93A23A4F9540089A543 /* Assets.xcassets */,
 				3BC7A93F23A4F9540089A543 /* Info.plist */,
@@ -87,7 +87,7 @@
 			path = "TO-DO";
 			sourceTree = "<group>";
 		};
-		3BC7A94723A514E10089A543 /* view */ = {
+		3BC7A94723A514E10089A543 /* controller */ = {
 			isa = PBXGroup;
 			children = (
 				3BC7A93523A4F9540089A543 /* InProgressViewController.swift */,
@@ -95,7 +95,7 @@
 				3BC7A95223A5221E0089A543 /* CompletedViewController.swift */,
 				3BC7A95423A5226D0089A543 /* MainTabBarController.swift */,
 			);
-			path = view;
+			path = controller;
 			sourceTree = "<group>";
 		};
 		3BC7A94823A514FA0089A543 /* ui */ = {
