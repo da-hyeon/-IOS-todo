@@ -8,11 +8,18 @@
 
 import UIKit
 
-class BaseTableViewController : UITableViewController {
+class BaseTableViewController : UITableViewController  {
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+
     }
 }
+
+
 
 public extension NSObject{
     class var nameOfClass: String{
@@ -22,4 +29,6 @@ public extension NSObject{
     var nameOfClass: String{
         return NSStringFromClass(type(of: self)).components(separatedBy: ".").last!
     }
+
+
 }

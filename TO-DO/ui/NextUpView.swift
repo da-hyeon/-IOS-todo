@@ -13,16 +13,13 @@ class NextUpView  : BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.title = "NextUp"
 
-        let myTableView: UITableView = UITableView()
-        let items: [String] = ["magi82", "swift", "ios"]
-
     }
+}
 
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//        self.navigationController?.isNavigationBarHidden = true
-//    }
+extension NextUpView {
+    func initUI() {
+        view.setNeedsUpdateConstraints()
+    }
 }
